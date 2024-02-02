@@ -26,7 +26,7 @@ $(document).ready(function() {
         }
     })
 }), $(document).ready(function() {
-    var e = $(".share-block__share-icon"),
+    let e = $(".share-block__share-icon"),
         i = "share-block__share-icon--is-active",
         s = ".share-block__facebook-icon",
         o = ".share-block__twitter-icon",
@@ -40,14 +40,14 @@ $(document).ready(function() {
         $(this).toggleClass(l)
     })
 }), $(document).ready(function() {
-    var e = $(".menu__icon"),
+    let e = $(".menu__icon"),
         i = "open",
         s = $(".card__body"),
         o = "card__body--faded",
         t = "menu__item--is-visible";
     e.click(function() {
         $(this).toggleClass(i), s.toggleClass(o), $(this).siblings().each(function(e) {
-            var i = this;
+            let i = this;
             setTimeout(function() {
                 $(i).toggleClass(t)
             }, 75 * e)
