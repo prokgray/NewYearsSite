@@ -2,6 +2,9 @@
 body,
 html {
 	height: 100%;
+	background: linear-gradient(135deg, #690505, #370303 50%, #000000);
+	overflow: hidden;
+	filter: drop-shadow(0 0 10px white);
 	margin: 0;
 	padding: 0
 }
@@ -206,7 +209,6 @@ html {
 .container {
 	display: -ms-flexbox;
 	display: flex;
-	background: linear-gradient(135deg, #e45661, #e96fb3 66%, #ec7ad6);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	-ms-flex-align: center;
